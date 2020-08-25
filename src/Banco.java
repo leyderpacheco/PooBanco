@@ -21,5 +21,8 @@ public class Banco {
 	public void commit(){
     System.out.println("Cambio 1 al commit"):
     }
-//comentarios malos
+
+    public void setCliente(ArrayList<Cliente> cliente) {
+        this.cliente = cliente;
+    }
 }
